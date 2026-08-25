@@ -1,0 +1,262 @@
+/*-- 1.RESET --*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*-- 2.Global Page --*/
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background: #050505;
+    color: #d8d8d8;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+header {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    z-index: 1000;
+    background: rgba(8, 8, 8, 0.85);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid #2b0b0b;
+}
+
+nav {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px 30px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #b30000;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: #d6d6d6;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 2px;
+
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #b30000;
+}
+
+/*-- 3.Home Section --*/
+
+.home {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    padding: 120px 20px 80px;
+
+    background:
+        radial-gradient(
+            circle at center,
+            rgba(120, 0, 0, 0.18),
+            transparent 55%
+        );
+}
+
+.hero h1 {
+    font-size: clamp(60px, 12vw, 140px);
+    letter-spacing: 12px;
+    color: #f1f1f1;
+    text-shadow: 0 0 20px rgba(150, 0, 0, 0.4);
+}
+.hero h2 {
+    margin-top: 10px;
+
+    color: #b30000;
+
+    font-size: 18px;
+    font-weight: normal;
+
+    letter-spacing: 3px;
+}
+.hero p {
+   max-width: 600px;
+
+    margin-top: 20px;
+
+    color: #a8a8a8;
+
+    font-size: 16px;
+}
+
+/*-- 4.View My Work Button --*/
+.main-button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    border: 1px solid #8f0000;
+    color: #f1f1f1;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    color: 0.3s ease;
+    box-shadow: 0.3s ease;
+}
+
+.main-button:hover {
+    background: #8f0000;
+    color: white;
+
+    box-shadow: 0 0 20px rgba(150, 0, 0, 0.4);
+}
+
+/*-- 5.Section --*/
+
+section {
+    border-top: 1px solid #2b0909;
+    max-width: 1100px;
+    margin: auto;
+
+    padding: 120px 30px;
+}
+
+section h2 {
+    margin-bottom: 40px;
+
+    color: #b30000;
+
+    font-size: 32px;
+    letter-spacing: 4px;
+}
+
+/*-- 6.About Section --*/
+.about-image {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    border: 1px solid #5c0000;
+    filter:grayscale(20%);
+    box-shadow: 0 0 20px rgba(120, 0, 0, 0.2);
+}
+
+/*-- 7.Projects Section --*/
+.project-container {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 25px;
+}
+.project-card {
+    padding: 30px;
+    background: #101010;
+    border: 1px solid #2b0b0b;
+    transition: transform 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+    transform: translateY(-6px);
+    border-color: #8f0000;
+    box-shadow: 0 10px 30px rgba(100, 0, 0, 0.25);
+}
+.project-card h3{
+    color: #e8e8e8;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.project-card p{
+    color: #999;
+    margin-bottom: 20px;
+}
+a {
+    color: inherit;
+}
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+.social-links a {
+    color: #999;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.social-links a:hover {
+    color: #b30000;
+}
+
+/*-- 8.Contact Section --*/
+#contact {
+    text-align: center;
+}
+#contact h2 {
+    max-width: 500px;
+    margin: 0 auto 25px;
+    color:#999;
+}
+
+footer {
+    padding: 30px;
+    text-align: center;
+    border-top: 1px solid #2b0b0b;
+    color:#666;
+    font-size: 13px;
+}
+
+@media (max-width: 700px) {
+   nav {
+    padding: 15px 20px;
+   }
+   nav ul {
+    gap: 15px;
+   }
+   nav a {
+    font-size: 12px;
+   }
+   .hero h1 {
+    font-size: 55px;
+    letter-spacing: 6px;
+   }
+   .hero h2 {
+    font-size: 14px;
+   }
+   .about-container {
+    flex-direction: column;
+    align-items: center;
+   }
+   .about-image {
+    width: 220px;
+    height: 220px;
+   }
+   .project-container {
+    grid-template-columns: 1fr;
+   }
+
+   section {
+    padding: 90px 20px;
+   }
+}

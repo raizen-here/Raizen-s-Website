@@ -2,11 +2,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Raizen's Web</title>
 </head>
 <body>
     <header>
         <nav>
+            <div class="logo">RAIZEN</div>  
             <ul>
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
@@ -22,8 +24,8 @@
             <p>
                 I built things, experiment with new technology,and learn by turning ideas into projects. My First Goal For Now is to become a SOC analyst and then a Penetration Tester. I am currently learning about Cybersecurity and Web Development. I am also a student of Computer Science Engineering.
             </p>
-            <a href="#projects">View My Work</a>
-            <div>
+            <a href="#projects" class="main-button">View My Work</a>
+            <div class="social-links">
                 <a href="https://github.com/raizen-here">GitHub</a>
                 <a href="https://www.linkedin.com/in/mayank-sahu-50104039a?utm_source=share_via&utm_content=profile&utm_medium=member_android">LinkedIn</a>
                 <a href="https://www.instagram.com/m4yank.here_/">Instagram</a>
@@ -31,9 +33,7 @@
         </section>
         <section id="about"> 
             <h2>About Me</h2>
-            <picture>
-                <img src="https://i.pinimg.com/736x/76/63/01/7663018a1216fc4acffd89082f1820c7.jpg" alt="Young man with black hair, sharp eyes, and a serious expression, facing forward. He wears a dark outfit with a necklace and has dramatic, spiky hair. The scene is set against a soft gray background with bright light on his face, creating a tense, introspective mood. No readable text appears in the image." width="controlled" height="controlled" object-fit="cover">
-            </picture>
+                <img class="about-image" src="https://i.pinimg.com/736x/76/63/01/7663018a1216fc4acffd89082f1820c7.jpg" alt="Young man with black hair, sharp eyes, and a serious expression, facing forward. He wears a dark outfit with a necklace and has dramatic, spiky hair. The scene is set against a soft gray background with bright light on his face, creating a tense, introspective mood. No readable text appears in the image." width="controlled" height="controlled" object-fit="cover">
             <h3>Hey I'm Raizen!</h3>
             <h4>Who am I?</h4>
             <p>
@@ -60,9 +60,19 @@
         </section>
         <section id="projects">
             <h2>My Projects</h2>
-            <h3>A few things I've built and experimented with.</h3>
-            <p>Grind X — An interactive habit-tracking app I made to gamify tasks and make productivity more engaging, while tracking weekly and monthly progress.</p>
-            <p>BASE — A concept I'm currently working on. It's a workspace organizer designed to help manage files, passwords, software, and other things in one place, with AI-powered features.</p>
+            <h2>A few things I've built and experimented with.</h2>
+            <div class="project-container">
+                <article class="project-card">
+                    <h3>Grind X</h3>
+                    <p>An interactive habit-tracking app I made to gamify tasks and make productivity more engaging, while tracking weekly and monthly progress.</p>
+                </article>
+            </div>
+            <div class="project-container">
+                <article class="project-card">
+                    <h3>BASE</h3>
+                    <p>A concept I'm currently working on. It's a workspace organizer designed to help manage files, passwords, software, and other things in one place, with AI-powered features.</p>
+                </article>
+            </div>
         </section>
         <section id="contact"> <h2> CONTACT </h2>
             <a href="mailto:mayanksahu.og07@gamil.com">Email ME</a>
