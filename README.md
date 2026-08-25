@@ -15,4 +15,5 @@ A project concept I worked on for keeping useful things organised in one place.
 One of the harder parts for me was CSS because I was starting with basically no CSS knowledge. I had to figure out things like containers, image sizing, spacing and layouts while actually building the website.
 I didn't use JavaScript because I didn't need it for this website.
 Built with HTML + CSS.
+
 Made by me 🖤
