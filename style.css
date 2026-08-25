@@ -4,19 +4,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-/*-- 2.Global Page --*/
+body {
+    color: #f1f1f1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://m.gettywallpapers.com/wp-content/uploads/2023/10/4k-Dark-Anime-Background-For-PC-1536x864.jpg);
+}
 html {
     scroll-behavior: smooth;
 }
 
-body {
-    margin: 0;
-    background: #050505;
-    color: #d8d8d8;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 1.6;
-}
 header {
     position:fixed;
     top:0;
