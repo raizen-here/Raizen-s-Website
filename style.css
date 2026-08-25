@@ -143,35 +143,3 @@ footer {
     color:#666;
     font-size: 13px;
 }
-@media (max-width: 700px) {
-   nav {
-    padding: 15px 20px;
-   }
-   nav ul {
-    gap: 15px;
-   }
-   nav a {
-    font-size: 12px;
-   }
-   .hero h1 {
-    font-size: 55px;
-    letter-spacing: 6px;
-   }
-   .hero h2 {
-    font-size: 14px;
-   }
-   .about-container {
-    flex-direction: column;
-    align-items: center;
-   }
-   .about-image {
-    width: 220px;
-    height: 220px;
-   }
-   .project-container {
-    grid-template-columns: 1fr;
-   }
-   section {
-    padding: 90px 20px;
-   }
-}
