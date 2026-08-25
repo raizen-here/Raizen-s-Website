@@ -9,7 +9,7 @@ The main projects I added are:
 ### Grind X
 A habit tracking project I made because I wanted to experiment with making productivity feel more engaging.
 
-### BaASE
+### BASE
 A project concept I worked on for keeping useful things organised in one place.
 
 One of the harder parts for me was CSS because I was starting with basically no CSS knowledge. I had to figure out things like containers, image sizing, spacing and layouts while actually building the website.
