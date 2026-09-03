@@ -1,20 +1,17 @@
 # Raizen's Website 🖤
-I made this as my personal website and built it from scratch.
 
-I wanted something simple where I could show a little about myself and my projects, but I didn't want it to look like a normal portfolio. I really like Death Note and the Kira aesthetic, so I used that as the main inspiration for the design.
+This is my personal website that I made for the StarDance challenge.
 
-I started with the HTML structure and then learned CSS while building the site. I worked on the navbar, sections, image layout, project cards and responsive design. I also deployed it using GitHub Pages.
+I wanted to make something simple but with a Death Note / Kira type of look because I really like the anime.
 
-The main projects I added are:
+### What I used
+- HTML
+- CSS
 
-### Grind X
-A habit tracking project I made because I wanted to experiment with making productivity feel more engaging.
+### Projects
+- Grind X
+- BaASE
 
-### BASE
-A project concept I worked on for keeping useful things organised in one place.
+I made the website from scratch and deployed it using GitHub Pages.
 
-One of the harder parts for me was CSS because I was starting with basically no CSS knowledge. I had to figure out things like containers, image sizing, spacing and layouts while actually building the website.
-I didn't use JavaScript because I didn't need it for this website.
-Built with HTML + CSS.
-
-Made by Raizen 🖤
+Still learning CSS while working on it :)
